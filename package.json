@@ -1,11 +1,14 @@
 {
-  "name": "@napi-rs/package-template",
+  "name": "crustctrl",
   "version": "1.0.0",
-  "description": "Template project for writing node package with napi-rs",
+  "description": "Control the mouse and keyboard from node.js",
   "main": "index.js",
-  "repository": "git@github.com:napi-rs/package-template.git",
+  "repository": "git@github.com:takoyaro/crustctrl.git",
   "license": "MIT",
   "keywords": [
+    "keyboard",
+    "mouse",
+    "control",
     "napi-rs",
     "NAPI",
     "N-API",
@@ -18,7 +21,7 @@
     "index.js"
   ],
   "napi": {
-    "name": "package-template",
+    "name": "crustctrl",
     "triples": {
       "defaults": true,
       "additional": [
@@ -103,6 +106,5 @@
     "trailingComma": "all",
     "singleQuote": true,
     "arrowParens": "always"
-  },
-  "packageManager": "yarn@4.5.3"
+  }
 }
