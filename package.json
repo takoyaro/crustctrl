@@ -1,6 +1,6 @@
 {
   "name": "crustctrl",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Control the mouse and keyboard from node.js",
   "main": "index.js",
   "repository": "git@github.com:takoyaro/crustctrl.git",
@@ -18,7 +18,8 @@
   ],
   "files": [
     "index.d.ts",
-    "index.js"
+    "index.js",
+    "*.node"
   ],
   "napi": {
     "name": "crustctrl",
@@ -108,18 +109,18 @@
     "arrowParens": "always"
   },
   "optionalDependencies": {
-    "crustctrl-win32-x64-msvc": "1.0.0",
-    "crustctrl-darwin-x64": "1.0.0",
-    "crustctrl-linux-x64-gnu": "1.0.0",
-    "crustctrl-linux-x64-musl": "1.0.0",
-    "crustctrl-linux-arm64-gnu": "1.0.0",
-    "crustctrl-win32-ia32-msvc": "1.0.0",
-    "crustctrl-linux-arm-gnueabihf": "1.0.0",
-    "crustctrl-darwin-arm64": "1.0.0",
-    "crustctrl-android-arm64": "1.0.0",
-    "crustctrl-freebsd-x64": "1.0.0",
-    "crustctrl-linux-arm64-musl": "1.0.0",
-    "crustctrl-win32-arm64-msvc": "1.0.0",
-    "crustctrl-android-arm-eabi": "1.0.0"
+    "crustctrl-win32-x64-msvc": "1.0.1",
+    "crustctrl-darwin-x64": "1.0.1",
+    "crustctrl-linux-x64-gnu": "1.0.1",
+    "crustctrl-linux-x64-musl": "1.0.1",
+    "crustctrl-linux-arm64-gnu": "1.0.1",
+    "crustctrl-win32-ia32-msvc": "1.0.1",
+    "crustctrl-linux-arm-gnueabihf": "1.0.1",
+    "crustctrl-darwin-arm64": "1.0.1",
+    "crustctrl-android-arm64": "1.0.1",
+    "crustctrl-freebsd-x64": "1.0.1",
+    "crustctrl-linux-arm64-musl": "1.0.1",
+    "crustctrl-win32-arm64-msvc": "1.0.1",
+    "crustctrl-android-arm-eabi": "1.0.1"
   }
 }
